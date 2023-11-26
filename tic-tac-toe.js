@@ -4,7 +4,7 @@ let nole = false;
 document.getElementById('first').onclick = function () {
     if (exe == true) {
         document.getElementById('firsttext').innerHTML="x";
-        document.getElementById('onetext').innerHTML="ходять O";
+        document.getElementById('onetext').innerHTML="next O";
         exe = false;
         nole = true;
     }else if(nole == true){
